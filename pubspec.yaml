@@ -1,0 +1,23 @@
+name: mr_mu_thai_global_typing
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_tts: ^4.2.5
+  http: ^1.2.0
+  shared_preferences: ^2.5.5
+  google_generative_ai: ^0.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/moosensei_typing.jpg
